@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <title> Lojinha de cosméticos </title>
+        <link rel="stylesheet" type="text/css" href="tela1.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <div id="corpo">
+        <form action="tela2.php" method="POST" enctype="multipart/form-data">
+        <h2> Cadastre seu produto em nossa lojinha: </h2>
+        <p>apenas cosméticos!</p>
+        <h3> Qual produto será cadastrado?</h3>
+        <input type="text" name="nomeProduto">
+        
+        
+        <h3> Valor do produto:</h3>
+        <input type="text" name="valor">
+        
+
+        <h3>Descrição do produto: </h3>
+        <input type="text" name="descricao"> <br><br>
+
+        
+        <label for="myfile"><h3>Selecione uma foto do produto:</h3>
+        <input type="file" id="nomeImagem" name="nomeImagem"><br><br>
+        </label>
+
+        <input type=submit name='submit' value='enviar'>
+
+        </form>
+    </div>
+        
+    </body>
+</html>

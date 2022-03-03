@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(208, 125, 211);
+}
+
+h3{
+    font-family: Microsoft JhengHei Light;
+	font-size: 20;
+}
+
+h2{
+    font-family: Microsoft JhengHei Light; 
+	font-size: 20;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 15;
+}
+
+
+
+input[type=submit] {
+    border: 2px solid rgb(0, 0, 0);
+    height: 35px;
+    width: 67px;
+    background: #ffffff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    margin-left: 210px;
+    margin-top: 18px;
+}
+
+#corpo{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-top: 87px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.452);
+}
